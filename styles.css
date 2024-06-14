@@ -108,6 +108,75 @@ h1 {
     font-weight: 550;
 }
 
+/*body section start here */
+
+.hero-container-one {
+    background-color: white;
+    padding: 60px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-header {
+    display: flex;
+    justify-content: center;
+    padding: 30px 60px;
+    margin-bottom: 40px;
+}
+.hero-header p{
+    font-size: 18px ;
+    font-style: oblique;
+}
+.hero-section {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #F9F9F5;
+    border-radius: 15px;
+    width: 1100px;
+}
+.hero-section > img {
+    height: 100%;
+    width: 420px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.section-column {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+}
+.section-column > img {
+    height: 60px;
+    width: 60px;
+}
+.section-column h2{
+    font-size: 32px;
+}
+.section-column >button {
+    width: 580px;
+    padding: 20px;
+    margin-top: 15px;
+    
+}
+.section-column >div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 60px;
+
+
+}
+.ctabtn {
+    width: 200px;
+    margin-left: 25px;
+}
+.ctabtn img {
+    background-color:white;
+    
+}
+
 
 
 
