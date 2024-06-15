@@ -23,6 +23,12 @@ nav {
     font-size: 32px;
     font-weight: 600;
     color: black;
+    vertical-align: middle;
+}
+.logodiv{
+    display: flex;
+    width: 180px;
+    align-items: center;
 }
 
 .logo{
@@ -37,7 +43,7 @@ li {
 
 li a {
     color: black;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     margin-right: 25px;
 }
@@ -57,7 +63,7 @@ button {
 button a{
     color: white;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 
@@ -86,9 +92,12 @@ h1 {
 
 .headerdiv input {
     width: 400px;
-    height: 30px;
+    height: 25px;
     border-radius: 10px;
     border-width: 3px;
+}
+.headerdiv button {
+    padding: 4px;
 }
 .headerdiv p {
     padding: 0px 130px;
