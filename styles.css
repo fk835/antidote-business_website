@@ -48,7 +48,7 @@ img{
 }
 
 button {
-    background-color: black;
+    background-color: #4FB28F;
     border-radius: 10px;
     padding: 10px;
     width: 90px;
@@ -110,7 +110,7 @@ h1 {
 
 /*body section start here */
 
-.hero-container-one {
+.hero-container {
     background-color: #FFFFFF;
     padding: 60px 60px;
     display: flex;
@@ -188,7 +188,7 @@ h1 {
 
 .hero-header > div {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     width: 200px;
     margin-right: 25px;
 }
@@ -213,10 +213,116 @@ h1 {
     margin-right: 20px;
     border-radius: 10px;
     padding: 40px 40px;
+    box-sizing: border-box;
 }
-.block-content img {
+.block p {
+    padding: 20px 0px 40px;
+}
+.block h4{
+    font-size: 16px;
+    padding-top: 30px;
+}
+.two-blocks img {
     width: 510px;
     height: 100%;
     border-radius: 10px;
+}
+
+.class3 > p {
+    font-size: 14px;
+    padding: 20px 20px 5px;
+}
+.class3 > p + p {
+    font-size: 14px;
+    padding: 0 20px;
+}
+.class4 {
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 100px;
+    width: 100%;
+    
+}
+.class4 img {
+    width: 60px;
+    height: 60px;
+}
+.class4 div {
+    width: 800px;
+    justify-content: space-around;
+}
+
+.class5 {
+    background-color: #4FB28F;
+    justify-content: flex-start;
+    padding: 100px 60px;
+    margin-bottom: 0;
+}
+.class5 h1{
+    width: 600px;
+    padding-left: 50px;
+}
+.class5 button{
+    background-color: white;
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin-left: 300px;
+}
+.class5 a {
+    color: #4FB28F;
+    font-size: 18px;
+}
+.class5 img {
+    width: 120px;
+    height: 100%;
+    margin-right: 40px;
+    
+}
+.class6 a{
+    font-size: 18px;
+}
+.class6 {
+    padding: 30px 30px;
+}
+#country {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.class7 {
+    justify-content: space-between;
+    background-color: #F9F9F5;
+    margin-bottom: 0;
+}
+
+.list-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 400px;
+    padding-left: 30px;
+}
+.list-column p {
+    padding-top: 15px;
+}
+.class8 {
+    background-color: #F9F9F5;
+    margin-bottom: 0;
+    justify-content: flex-start;
+    
+}
+.company-details {
+    background-color: #F9F9F5;
+    padding-left: 90px;
+    padding-bottom: 40px;
+}
+.company-details p {
+    padding-top: 5px;
+}
+.company-details img {
+    padding: 10px 5px;
 }
 
